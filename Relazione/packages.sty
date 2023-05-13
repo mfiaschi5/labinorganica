@@ -1,0 +1,50 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{biblatex}
+\addbibresource{bib.bib}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{multirow}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[version=4]{mhchem}
+\usepackage{graphicx}
+\usepackage[italian]{babel}
+\usepackage{lipsum}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[CO]{{\small{{\bf{Complementi di Inorganica}} - Laboratorio inorganica - 2022/2023 - Fiaschi Matteo}}}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{mdframed}
+\usepackage{systeme,mathtools}
+\usepackage{lmodern}
+\usepackage{mdframed}
+\usepackage{chemformula}
+\usepackage{tikz}
+\usepackage{hyperref}
+\hypersetup{
+   unicode=false,          % non-Latin characters in Acrobat’s 
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Laboratorio di chimica inorganica},    % title
+    pdfauthor={Fiaschi Matteo},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Fiaschi Matteo },   % creator of the document
+    pdfproducer={Fiaschi Matteo}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor= OliveGreen,          % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue           % color of external links
+    }
+\pdfstringdefDisableCommands{%
+  \def\\{} %
+  \def\ce#1{<#1>}%
+}
+
+\newcommand{\um}[1]{\mathrm{\ #1}}
