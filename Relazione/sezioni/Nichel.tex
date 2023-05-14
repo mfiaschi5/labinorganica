@@ -227,6 +227,43 @@ $\sigma$ & .056 & \\
 \end{table}
 
 
+Calcoliamo la suscettibilità magnetica molare tramite la seguente formula:
+
+\[ \chi_m =  \chi_s M \]
 
 
+\begin{table}[ht!]
+\centering
+\begin{tabular}{lcc}
+ &\ce{[Ni(en)3]Cl2}    &  \ce{[Ni(Eten)2(H2O)2]Br2} \\ \hline
+ [$\mathrm{cm^3/mol} \cdot $] $10^{-3}$ &  2.85  & 4.72\\
+\end{tabular}
+\end{table}
 
+\[ \chi'_m = \chi_m - \chi_{\ce{dia}}\]
+\[\chi_{\ce{dia}} = \sum_i \nu_i \chi_{\ce{pascal}}\]
+\[ \frac{\mu}{\mu_B} = 2.828\sqrt{\chi'_m T}\]
+\[ \frac{\mu}{\mu_B} = \sqrt{n(n+1)}\]
+
+\begin{table}[ht!]
+\centering
+\begin{tabular}{l ccccc r}\hline
+& \ce{en} & \ce{Cl} & \ce{H2O} & \ce{Eten} & \ce{Br} & Contributo totale \\
+\hline\hline
+Correzione diamagnetica & 0.046 & -0.0234 & -0.013 & -0.073 & -0.0346 &  \\
+$\nu_i$ \ce{[Ni(en)3]Cl2}  & 3 & 2 & 2 & 0 & 0&-0.2108 \\
+ $\nu_i$ \ce{[Ni(Eten)2(H2O)2]Br2}& 0 & 0 & 2 & 2 & 2 & -0.2412\\\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht!]
+\centering
+\begin{tabular}{ccccc}
+Composto& Temperatura[°C] & $\chi'_m$ & $\mu$[$\mu_B$] & n \\
+\hline
+\ce{[Ni(en)3]Cl2} & 24 & 0.214 & 6.40 & 2.08 \\
+\ce{[Ni(Eten)2(H2O)2]Br2} & 24 & 0.246 & 6.87 & 2.17 \\
+\end{tabular}
+\end{table}
+
+Calcolo 
