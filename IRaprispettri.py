@@ -1,6 +1,10 @@
+#!/usr/bin/env python
+import sys
 
-
-from __future__ import print_function
+if sys.version_info[0] == 3  or sys.version_info[1] > 8:
+    print(" Lo script non funziona se si utilizzano versioni di python recenti. <3.10  ")
+    sys.exit(1)
+    
 import array
 import numpy as np
 import matplotlib.pyplot as plt
