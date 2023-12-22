@@ -34,35 +34,50 @@ Le moli finali sono il rapporto massa della provettà piena di prodotto tolta la
 \[ Y_\% = \frac{n_\text{pro}}{n_{\ce{HCo(OPh)3}}}\cdot 100  = \frac{  0.508 \cdot 10^{-3} \mathrm{~mol}}{1.72 \cdot 10^{-3} \mathrm{~mol}} \cdot 100 =29.5\%\]
 
 \subsection{Spettro NMR}
+Analizzando la struttura del composto possiamo distinguere 4 tipi di idrogeni: \ce{H1} collegato direttamente al metallo, \ce{H2}, \ce{H3} e \ce{H4} che sono idrogeni fenilici. Notiamo innanzitutto, che il picco a 7.25 ppm è dovuto al solvente, infatti a quelle frequenze risuona proprio l'idrogeno del cloroformio che è presente in piccole quantità come impurezza.  
 
-
-\begin{figure}
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\linewidth]{Relazione/foto/CoH_aromaticpeak_calc_zoom.png}
-    \caption{Caption}
+    \includegraphics[scale=0.8]{Relazione/foto/cohidro.png}
+    \caption{Idrogeni nel gruppo fenilico }
+    \label{fig:enter-label}
+\end{figure}
+Il picco 6.7 ppm è  relativo agli idrogeni \ce{H2} in quanto integra 2 idrogeni ed è quello a chemical shift più basso; ciò è dovuto a effetti di risonanza sull'anello, in quanto il gruppo fosfito è attivante quindi le posizioni orto e para risulteranno schermate mentre la posizione in meta risulterà deschermata. Il picco a 6.9 ppm quindi visto che integra 1 idrogeno sarà generato da \ce{H3},  per esclusione \ce{H4} generà il picco a 7 ppm. Infine, il picco -13.87 ppm è relativo a \ce{H1}. Analizzando i coupling tra nuclei possiamo trarre le seguenti conclusioni: \begin{enumerate}
+    \item \ce{H1} accoppia con il ${}^{31}$P che è attivo al NMR avendo spin $\frac{1}{2}$, in teoria anche il ${}^{59}$Co è attivo all'NMR avendo spin $\frac{7}{2}$ ma data la sua natura quadrupolare non accoppia con i protoni. Quest'ultimo fatto si può vedere nello spettro infatti se l'accoppiamento avvenisse dovremmo trovare un ottetto, ma ciò non accade infatti il picco è un quintetto. Il quintetto è generato unicamente dall'accoppiamento fosforo-protone, $m = 2Ns +1 = 4 +1 = 5$
+    \item \ce{H2} dovrebbe in teoria essere un doppio tripletto o un doppio doppio doppietto in quanto esso accoppia tramite ${}^3$J con \ce{H3}  e ${}^4$J con \ce{H4} e   \ce{H2}'. Nella pratica vediamo solo un doppietto perché lo strumento utilizzato non arriva a campi abbastanzi alti per permettere di vedere l'accoppiamenti ${}^4$J.
+    \item \ce{H4} in teoria dovrebbe essere un triplo tripletto in quanto esso accoppia ${}^3$J con due nuclei equivalenti e ${}^4$J con altri due nuclei equivalenti. Nello spettro misurato vediamo solo un doppietto asimmetrico.
+    \item \ce{H3} accoppia ${}^3$J con due nuclei non equivalenti e ${}^4$J con un protone, il picco risultante dovrebbe essere un doppio doppio doppietto. Nella pratica si vede solo un doppietto.
+
+    Le anomalie riscontrate per \ce{H3} e \ce{H4} si possono spiegare con il fatto che essendo i picchi molto ravvicinati il sistema entra in regime di coupling forte. Questo porta alla comparsa nello spettro di effetti al secondo ordine che creano distorsione nella forma dei picchi e nella loro molteplicità. Ulteriori indagini possono essere fatte scegliendo strumenti che lavorano a campi più alti.
+\end{enumerate}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Relazione/foto/CoH_aromaticpeak_calc_zoom.png}
+    \caption{Picchi benzenici molteciplità}
     \label{fig:coharomaticzoom}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\linewidth]{Relazione/foto/CoH_aromaticpeak_right.png}
-    \caption{Caption}
+    \includegraphics[width=0.7\linewidth]{Relazione/foto/CoH_aromaticpeak_right.png}
+    \caption{Picchi benzeneici integrati }
     \label{fig:my_label}
 \end{figure}
 
 
-\begin{figure}
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\linewidth]{Relazione/foto/CoH_hydridepeak_calc.png}
-    \caption{Caption}
+    \includegraphics[width=0.6\linewidth]{Relazione/foto/CoH_hydridepeak_calc.png}
+    \caption{Moltiplicità picco idruro}
     \label{fig:my_label}
 \end{figure}
-\begin{figure}
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\linewidth]{Relazione/foto/CoH_hydridepeak_right.png}
-    \caption{Caption}
+    \includegraphics[width=0.6\linewidth]{Relazione/foto/CoH_hydridepeak_right.png}
+    \caption{Picco idruro integrato}
     \label{fig:my_label}
 \end{figure}
 
 
 
+\clearpage
